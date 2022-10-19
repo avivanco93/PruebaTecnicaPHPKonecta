@@ -1,0 +1,2 @@
+Buen dia adjunto prueba tecnica, la realice con php, mysql y un poco de bootrap, estan los archivos de la prueba.
+se necesita xampp para la prueba adjunto la base de datos que realice.

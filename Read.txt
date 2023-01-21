@@ -1,2 +1,11 @@
 Buen dia adjunto prueba tecnica, la realice con php, mysql y un poco de bootrap, estan los archivos de la prueba.
-se necesita xampp para la prueba adjunto la base de datos que realice.
+se necesita xampp para la prueba adjunto la base de datos que realice, se puede realizar crud tanto en la ventana de productos como en la de ventas.
+
+Consultas Sql
+Realizar una consulta que permita conocer cuál es el producto más vendido.
+SELECT id_producto, MAX(cantidad_producto)
+FROM ventas;
+
+Realizar una consulta que permita conocer cuál es el producto que más stock tiene
+SELECT nombre_producto, MAX(stock)
+FROM productos;

@@ -16,6 +16,7 @@ $sql="INSERT INTO productos VALUES('$id','$nombre_producto','$referencia','$prec
 $query= mysqli_query($con,$sql);
 
 
+
 if($query){
     Header("Location: productos.php");
     

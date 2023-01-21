@@ -7,8 +7,6 @@
 
     
 //Realizar una consulta que permita conocer cuál es el producto que más stock tiene
-
-
 //select max(stock) FROM productos;
     
     $row=mysqli_fetch_array($query);
@@ -29,7 +27,7 @@
             <div class="container mt-5">
                     <div class="row"> 
                     <menu>
-                    <a href="venta.php" class="btn btn-info">Ventas</a>
+                    <th><a href="venta.php" class="btn btn-info">Ventas</a></th>
                         
                     </menu>
                         
@@ -79,7 +77,8 @@
                                                 <th><?php  echo $row['stock']?></th>
                                                 <th><?php  echo $row['fecha_creacion']?></th>    
                                                 <th><a href="actualizar.php?id=<?php echo $row['id'] ?>" class="btn btn-info">Editar</a></th>
-                                                <th><a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
+                                                <th><a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Eliminar</a></th>   
+                                                                                    
                                             </tr>
                                         <?php 
                                             }
